@@ -1,6 +1,6 @@
-# CorrCA for Python
+# CorrCA for TMS-EEG
 
-The CorrCA for Python project is an implementation of the Correlated Component Analysis (CorrCA) method [(Parra, 2018)](https://arxiv.org/abs/1801.08881) for Python. CorrCA is a multivariate analysis technique designed to find maximally correlated components between repetitions. It has been suggested as a method for finding relationships between neural activity and stimuli or behavior, as well as for data dimensionality-reduction. This implementation is designed to work with MNE.Epochs() objects, a commonly used data structure for handling EEG data in Python. This project was first implemented for TMS-EEG data analysis but further it was set aside so that more time could be dedicated towards [another promissing multivariate approach](https://github.com/Boutoo/gTRCA).
+The CorrCA for TMS-EEG is an implementation of the Correlated Component Analysis (CorrCA) method [(Parra, 2018)](https://arxiv.org/abs/1801.08881) for Python. CorrCA is a multivariate analysis technique designed to find maximally correlated components between repetitions. It has been suggested as a method for finding relationships between neural activity and stimuli or behavior, as well as for data dimensionality-reduction. This implementation is designed to work with a list or a single MNE.Epochs() object(s), a commonly used data structure for handling EEG data in Python. This project was first implemented for TMS-EEG data analysis and still under development. You can check another interesting multivariate method for TMS-EEG signals on [here (gTRCA)](https://github.com/Boutoo/gTRCA).
 
 ## Features
 
